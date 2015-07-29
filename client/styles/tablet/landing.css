@@ -1,4 +1,4 @@
-@media (min-width: 1025px) {
+@media (min-width: 668px) and (max-width: 1024px) {
   .landing-container {
     background: black;
     position: absolute;
@@ -15,8 +15,8 @@
     right: 0;
     top: 0;
     bottom: 0;
-    width: 600px;
-    height: 400px;
+    width: 500px;
+    height: 300px;
     margin: auto;
     text-align: center;
     border: 1px solid rgba(225, 225, 225, .3);
@@ -27,5 +27,3 @@
     top: 120px;
   }
 }
-
-
