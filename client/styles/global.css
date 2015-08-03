@@ -3,3 +3,19 @@ body {
   margin: auto;
   overflow-x: hidden;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
