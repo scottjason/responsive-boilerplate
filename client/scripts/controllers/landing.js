@@ -6,7 +6,7 @@ angular.module('BoilerPlate')
 function Landing($scope, $rootScope, $state, $timeout) {
 
   $scope.init = function() {	
-  	console.log('You Made It! Welcome To The BoilerPlate');
+  	console.log('You Made It! Welcome To BoilerPlate');
   };
 
   Landing.$inject['$scope', '$rootScope', '$state', '$timeout'];
