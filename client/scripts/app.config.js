@@ -7,7 +7,7 @@ angular.module('BoilerPlate')
       .state('landing', {
         url: '/',
         templateUrl: 'views/landing.html',
-        controller: 'LandingCtrl as landingCtrl'
+        controller: 'Landing'
       })
 
     $urlRouterProvider.otherwise('/');

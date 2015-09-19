@@ -1,37 +1,34 @@
-  .landing-container {
-    background: black;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .landing-container-inner {
-    background: #042C43;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 800px;
-    height: 600px;
-    margin: auto;
-    text-align: center;
-    border: 1px solid rgba(225, 225, 225, .3);
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-  }
-  
-  .landing-container-inner > p {
-    color: orange;
-    position: relative;
-    top: 120px;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    transition: all .3s ease;
-  }
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.center-container.landing {
+  background: #e9ece5;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid rgba(225, 225, 225, .3);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: .3s;
+  transition: 0.3s;
+}
+
+.center-container.landing > p {
+  color: black;
+  position: relative;
+  top: 230px;
+  font-size: 24px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: .3s;
+  transition: 0.3s;
+}

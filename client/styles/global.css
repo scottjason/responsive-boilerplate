@@ -1,11 +1,18 @@
 body {
   background: black;
-  margin: auto;
   overflow-x: hidden;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
 }
+
 * {
   margin: 0;
   padding: 0;
+}
+
+input {
+  outline: 0;
 }
 
 a {
@@ -14,8 +21,4 @@ a {
 
 ul {
   list-style-type: none;
-}
-
-.inline-block {
-  display: inline-block;
 }

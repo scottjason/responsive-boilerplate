@@ -1,20 +1,13 @@
 'use strict';
 
 angular.module('BoilerPlate')
-  .controller('LandingCtrl', LandingCtrl);
+  .controller('Landing', Landing);
 
-function LandingCtrl($scope, $rootScope, $state, $timeout) {
+function Landing($scope, $rootScope, $state, $timeout) {
 
-  var ctrl = this;
-
-  this.initialize = function() {
-    ctrl.welcomeUser();
+  $scope.init = function() {	
+  	console.log('You Made It! Welcome To The BoilerPlate');
   };
 
-  ctrl.welcomeUser = function() {
-    console.log("Welcome User!");
-  };
-
-
-  LandingCtrl.$inject['$scope', '$rootScope', '$state', '$timeout'];
+  Landing.$inject['$scope', '$rootScope', '$state', '$timeout'];
 }

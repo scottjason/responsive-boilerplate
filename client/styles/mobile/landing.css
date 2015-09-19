@@ -1,12 +1,21 @@
 /* Iphone 6 */
 
 @media (min-width: 321px) and (max-width: 667px) {
-  .landing-container-inner {
+  .center-container.landing {
     width: 320px;
     height: 400px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: .3s;
+    transition: 0.3s;
   }
-  .landing-container-inner > p {
-    color: orange;
+  .center-container.landing > p {
+    top: 175px;
+    font-size: 16px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: .3s;
+    transition: 0.3s;
   }
 }
 
@@ -14,11 +23,20 @@
 /* Iphone 5, 5s */
 
 @media (min-width: 320px) and (max-width: 568px) {
-  .landing-container-inner {
+  .center-container.landing {
     width: 280px;
     height: 400px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: .3s;
+    transition: 0.3s;
   }
-  .landing-container-inner > p {
-    color: red;
+  .center-container.landing > p {
+    top: 175px;
+    font-size: 16px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: .3s;
+    transition: 0.3s;
   }
 }
